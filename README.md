@@ -1,6 +1,6 @@
 # REST API на Laravel
 
-Это пример  REST API на основе фреймворка Laravel. API позволяет работать с сущностью items.
+Позволяет работать с сущностью items, как по API, так и через пользовательский интерфейс. 
 
 ## Установка
 1. Клонируйте репозиторий: **git clone https://github.com/laravel-geek/laravel-rest-api.git**
