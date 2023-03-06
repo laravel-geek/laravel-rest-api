@@ -45,16 +45,20 @@ API работает со следующими методами:
 }
 ```
 
+## Аутентификация, токен
+
 Приложение использует аутентификацию с помощью **Laravel Passport**, поэтому для доступа к методам API необходимо получить токен. Для этого нужно отправить POST запрос на /api/login с полями email и password, и полученный токен использовать в заголовке Authorization: Bearer {token} при запросах к методам API.
 ```
-composer require owen-it/laravel-auditing
+composer require laravel/passport "~9.0"
 ```
 **В самом проекте аутентификация отключена. Для включения нужно раскомментить проверку в контроллере и зарегистрировать boot.**
 
 
+## Истории изменений сущности
+
 Для истории изменений сущности используется пакет  **Laravel Auditing** - таблица audits.
 ```
-composer require laravel/passport "~9.0"
+composer require owen-it/laravel-auditing
 ```
 
 ## Пользовательский интерфейс
