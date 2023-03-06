@@ -1,4 +1,4 @@
-# REST API на Laravel
+# Универсальный REST API на Laravel
 
 Позволяет работать с сущностью items, как по API, так и через пользовательский интерфейс. 
 
@@ -34,7 +34,7 @@ composer require owen-it/laravel-auditing
 
 Для истории изменений сущности используется пакет  **Laravel Auditing** - таблица audits.
 ```
-composer require owen-it/laravel-auditing
+composer require laravel/passport "~9.0"
 ```
 
 ## Пользовательский интерфейс
