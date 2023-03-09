@@ -18,11 +18,11 @@ API работает со следующими методами:
 
 | Метод     | URI             | Описание                   |
 |-----------|-----------------|----------------------------|
-| GET       | /api/items      | Получить список всех items |
-| GET       | /api/items/{id} | Получить информацию по ID  |
-| POST      | /api/items      | Создать новый item         |
-| PUT/PATCH | /api/items/{id} | Обновить информацию по ID  |
-| DELETE    | /api/items/{id} | Удалить item по ID         |
+| GET       | /api/v1/items      | Получить список всех items |
+| GET       | /api/v1/items/{id} | Получить информацию по ID  |
+| POST      | /api/v1/items      | Создать новый item         |
+| PUT/PATCH | /api/v1/items/{id} | Обновить информацию по ID  |
+| DELETE    | /api/v1/items/{id} | Удалить item по ID         |
 
 
 ## json
